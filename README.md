@@ -53,8 +53,7 @@ To ensure data integrity, we checked for:
 
 
 ### **Outcome: A Successfully Loaded Dataset**  
-With the data now loaded and verified, we proceeded with **cleaning and preprocessing** to prepare it for analysis. 🚀📊
-
+With the data now loaded and verified, we proceeded with **cleaning and preprocessing** to prepare it for analysis.
 
 
 ## Data Cleaning
