@@ -9,32 +9,40 @@ This allows us to inspect, clean, and prepare the data for further exploration.
 
 ### **1. Importing Necessary Libraries**  
 Before loading the dataset, we imported essential Python libraries for data manipulation and analysis:  
-
+```python
 import pandas as pd  # For data handling
 import numpy as np   # For numerical operations
 import matplotlib.pyplot as plt  # For visualizations
+import seaborn as sns  # For advanced visualization
+```
 
 
 ### **2. Reading the Dataset**  
 The aviation accident dataset is loaded using **Pandas**:  
-
+```python
 aviation_df = pd.read_csv("aviation_accidents.csv")  # Replace with actual file path
+```
 
 
 ### **3.  Inspecting the Data**  
 After loading, initial checks are performed to understand the dataset structure:  
 
 - **View first few rows:**  
+  ```python
   aviation_df.head()
-
+  ```
 - **Check dataset shape (rows, columns):**  
+  ```python
   aviation_df.shape
-
+  ```
 - **Get column names and data types:**  
+  ```python
   aviation_df.info()
-  
+  ```
 - **Check summary statistics:**  
+  ```python
   aviation_df.describe()
+  ```
   
 
 ### **4. Verifying Data Integrity**  
@@ -81,71 +89,3 @@ After these steps, the dataset is now:
 - Free of missing values.  
 - Consistent in format.  
 - Enhanced with new features for deeper analysis.  
-
-
-
-### **📥 Data Loading: Importing the Dataset for Analysis**  
-
-The first step in any data analysis process is loading the dataset into our environment. This allows us to inspect, clean, and prepare the data for further exploration.  
-
----
-
-### **1️⃣ Importing Necessary Libraries**  
-Before loading the dataset, we imported essential Python libraries for data manipulation and analysis:  
-```python
-import pandas as pd  # For data handling
-import numpy as np   # For numerical operations
-import matplotlib.pyplot as plt  # For visualizations
-import seaborn as sns  # For advanced visualizations
-```
-
----
-
-### **2️⃣ Reading the Dataset**  
-We loaded the aviation accident dataset using **Pandas**:  
-```python
-aviation_df = pd.read_csv("aviation_accidents.csv")  # Replace with actual file path
-```
-Other supported formats:  
-- **Excel File:** `pd.read_excel("filename.xlsx")`  
-- **JSON File:** `pd.read_json("filename.json")`  
-- **SQL Database:** `pd.read_sql("SQL_query", connection)`
-
----
-
-### **3️⃣ Inspecting the Data**  
-After loading, we performed initial checks to understand the dataset structure:  
-
-- **View first few rows:**  
-  ```python
-  aviation_df.head()
-  ```
-- **Check dataset shape (rows, columns):**  
-  ```python
-  aviation_df.shape
-  ```
-- **Get column names and data types:**  
-  ```python
-  aviation_df.info()
-  ```
-- **Check summary statistics:**  
-  ```python
-  aviation_df.describe()
-  ```
-- **Identify missing values:**  
-  ```python
-  aviation_df.isnull().sum()
-  ```
-
----
-
-### **4️⃣ Verifying Data Integrity**  
-To ensure data integrity, we checked for:  
-✅ **Duplicate values** – using `.duplicated().sum()`  
-✅ **Inconsistent column names** – using `aviation_df.columns`  
-✅ **Missing values** – using `.isnull().sum()`  
-
----
-
-### **🔹 Outcome: A Successfully Loaded Dataset**  
-With the data now loaded and verified, we proceeded with **cleaning and preprocessing** to prepare it for analysis. 🚀📊
