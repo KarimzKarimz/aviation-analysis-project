@@ -20,7 +20,7 @@ import seaborn as sns  # For advanced visualization
 ### **2. Reading the Dataset**  
 The aviation accident dataset is loaded using **Pandas**:  
 ```python
-aviation_df = pd.read_csv("AviationData.csv")
+aviation_df = pd.read_csv("AviationData.csv", encoding='latin1', low_memory=False)
 ```
 
 
