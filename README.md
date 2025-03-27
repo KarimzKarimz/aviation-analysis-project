@@ -20,7 +20,7 @@ import seaborn as sns  # For advanced visualization
 ### **2. Reading the Dataset**  
 The aviation accident dataset is loaded using **Pandas**:  
 ```python
-aviation_df = pd.read_csv("aviation_accidents.csv")  # Replace with actual file path
+aviation_df = pd.read_csv("AviationData.csv")
 ```
 
 
@@ -56,7 +56,7 @@ To ensure data integrity, we checked for:
 With the data now loaded and verified, we proceeded with **cleaning and preprocessing** to prepare it for analysis.
 
 
-## Data Cleaning
+## **Data Cleaning**
 ### **Preparing the Dataset for Analysis**  
 
 Data cleaning is a crucial step in the data analysis process. It ensures the dataset is accurate, consistent, and ready for further analysis. Below are the key steps performed to clean our aviation accident dataset:  
@@ -87,4 +87,31 @@ To ensure consistency in the dataset, the following has been done:
 After these steps, the dataset is now:  
 - Free of missing values.  
 - Consistent in format.  
-- Enhanced with new features for deeper analysis.  
+- Enhanced with new features for deeper analysis.
+
+### Exporting Cleaned Data  
+
+After preprocessing and cleaning the dataset, the final step is to **export the transformed data** into a CSV file for further analysis and visualization. 
+The cleaned dataset is saved as:  
+📂 **Aviation_Data_Cleaned.csv**  
+This file contains structured and refined aviation accident data, ensuring consistency and accuracy for deeper insights and modeling.
+
+
+## **Data Visualization**  
+
+This project utilizes data visualization to uncover patterns, trends, and relationships within aviation accident data. The visualizations help in understanding key factors that contribute to accidents and injury severity, offering insights for improved aviation safety.  
+
+#### **Selected Visualizations:**  
+1. **Accident Trends Over Time** – Analyzes how accident occurrences have changed over the years.  
+2. **Aircraft Damage Types** – Examines the extent of damage sustained in accidents.  
+3. **Accidents by Phase of Flight** – Identifies when accidents are most likely to occur (e.g., takeoff, cruise, landing).  
+4. **Top Manufacturers Involved in Accidents** – Highlights aircraft manufacturers with the most recorded accidents.  
+5. **Number of Engines vs. Accidents** – Investigates whether engine count correlates with accident frequency.  
+6. **Manufacturer vs. Number of Engines** – Explores engine distribution across different aircraft manufacturers.  
+7. **Types of Injuries vs. Phase of Flight** – Compares injury severity at different flight phases.  
+8. **Manufacturer vs. Purpose of Flight** – Analyzes how aircraft manufacturers align with different flight purposes.  
+9. **Correlation Heatmap of Injury Severity and Number of Engines** – Shows relationships between injury severity and aircraft engine count.  
+10. **Number of Engines vs. Injury Severity** – Evaluates how engine count impacts injury levels in accidents.  
+11. **Purpose of Flight vs. Injury Severity** – Investigates how flight purpose influences accident outcomes.  
+
+These visualizations provide a **data-driven perspective on aviation safety**, helping to identify risk factors and inform future safety measures.
