@@ -108,10 +108,8 @@ This project utilizes data visualization to uncover patterns, trends, and relati
 4. **Top Manufacturers Involved in Accidents** – Highlights aircraft manufacturers with the most recorded accidents.  
 5. **Number of Engines vs. Accidents** – Investigates whether engine count correlates with accident frequency.  
 6. **Manufacturer vs. Number of Engines** – Explores engine distribution across different aircraft manufacturers.  
-7. **Types of Injuries vs. Phase of Flight** – Compares injury severity at different flight phases.  
+7. **Purpose of Flight vs. Injury Severity** – Investigates how flight purpose influences accident outcomes. 
 8. **Manufacturer vs. Purpose of Flight** – Analyzes how aircraft manufacturers align with different flight purposes.  
-9. **Correlation Heatmap of Injury Severity and Number of Engines** – Shows relationships between injury severity and aircraft engine count.  
-10. **Number of Engines vs. Injury Severity** – Evaluates how engine count impacts injury levels in accidents.  
-11. **Purpose of Flight vs. Injury Severity** – Investigates how flight purpose influences accident outcomes.  
+9. **Correlation Heatmap of Injury Severity and Number of Engines** – Shows relationships between injury severity and aircraft engine count.   
 
 These visualizations provide a **data-driven perspective on aviation safety**, helping to identify risk factors and inform future business decisions.
